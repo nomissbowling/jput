@@ -1,0 +1,24 @@
+[package]
+name = "jput"
+version = "0.1.0" # change with html_root_url in lib.rs
+edition = "2021"
+authors = ["nomissbowling <nomissbowling@yahoo.co.jp>"]
+
+description = "puts and putc on unicode-width align for Rust"
+keywords = ["unicode", "width", "put", "align", "console"]
+categories = ["text-processing", "command-line-utilities", "command-line-interface"]
+license = "MIT"
+
+documentation = "https://docs.rs/jput/"
+homepage = "https://crates.io/crates/jput"
+repository = "https://github.com/nomissbowling/jput"
+
+readme = "README.md"
+
+#build = "build.rs"
+
+[lib]
+name = "jput"
+
+[dependencies]
+unicode-width = { version = "0.1" } # "0.1.11"
