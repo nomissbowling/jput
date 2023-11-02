@@ -1,6 +1,6 @@
 [package]
 name = "jput"
-version = "0.1.0" # change with html_root_url in lib.rs
+version = "0.1.1" # change with html_root_url in lib.rs
 edition = "2021"
 authors = ["nomissbowling <nomissbowling@yahoo.co.jp>"]
 
@@ -22,3 +22,4 @@ name = "jput"
 
 [dependencies]
 unicode-width = { version = "0.1" } # "0.1.11"
+colored = { version = "2.0" } # "2.0.4"
